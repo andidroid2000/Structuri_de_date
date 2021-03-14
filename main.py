@@ -1,3 +1,6 @@
+import random
+import time
+
 def bubble_sort(lista):
     for i in range(len(lista)):
         ordonat = True
@@ -130,6 +133,46 @@ def radix_sort(lista):
 
     return lista
 
+def genereaza_lista(n, val_max):
+    lista = []
+    for i in range(n):
+        numar = random.randint(1, val_max)
+        lista.append(numar)
+    return lista
 
-lista = [5, 7, 11, 16, 119, 11, 20]
-print(radix_sort(lista))
+def __main__():
+
+    nr_teste = 5
+    teste = [[10000, 100],[1000, 100000],[1000, 1000],[1000, 100000],[1000000, 10000]]
+    for i in range(nr_teste):
+        vector = genereaza_lista(teste[i][0], teste[i][1])
+        start = time.time()
+        vector = bubble_sort(vector)
+        print("Test", i + 1, "L-am sortat in", (time.time() - start), "secunde\n")
+
+        vector = genereaza_lista(teste[i][0], teste[i][1])
+        start = time.time()
+        vector = count_sort(vector)
+        print("Test", i + 1, "L-am sortat in", (time.time() - start), "secunde\n")
+
+        vector = genereaza_lista(teste[i][0], teste[i][1])
+        start = time.time()
+        vector = merge_sort(vector, 0, len(vector)-1)
+        print("Test", i + 1, "L-am sortat in", (time.time() - start), "secunde\n")
+
+        vector = genereaza_lista(teste[i][0], teste[i][1])
+        start = time.time()
+        vector = quick_sort(vector, 0, len(vector)-1)
+        print("Test", i + 1, "L-am sortat in", (time.time() - start), "secunde\n")
+
+        vector = genereaza_lista(teste[i][0], teste[i][1])
+        start = time.time()
+        vector= radix_sort(vector)
+        print("Test", i + 1, "L-am sortat in", (time.time() - start), "secunde\n")
+        
+        vector = genereaza_lista(teste[i][0], teste[i][1])
+        start = time.time()
+        vector.sort()
+        print("Test", i+1, "L-am sortat in", (time.time() - start),"secunde\n")
+
+__main__()
