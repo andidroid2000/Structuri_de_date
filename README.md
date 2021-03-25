@@ -8,6 +8,7 @@ Pentru tema numarul 1 de la laboratorul de SD, am implementat in Python urmatori
 4. Quick_sort
 5. Radix_sort
 
+Link prezentare [PowerPoint](https://unibucro0-my.sharepoint.com/:p:/r/personal/andi_toader_s_unibuc_ro/Documents/SDA%20-%20Tema%201.pptx?d=wdda6482b3f064bd4a2ab6252d4ac38f7&csf=1&web=1&e=CuLbjA).
 Pentru a determina eficienta acestora, am realizat un numar de 5 teste, cu numere generate aleator, avand urmatoarele caracteristici privind vectorii: [[Numar_elemente, Valoare maxima]], unde teste = [[10000, 100],[1000, 100000],[1000, 1000],[1000, 100000],[1000000, 10000]]. Pentru comparatie, am rulat si sort-ul nativ. In urma acestor teste, am inregistrat urmatoarele date (acestea au fost validate la final):
  1. Bubble_sort: se descurca rezonabil numai pe input cu un numar mic de elemente
 - Test 1: L-am sortat in 7.61854362487793 secunde
