@@ -13,17 +13,17 @@ Link prezentare [PowerPoint](https://unibucro0-my.sharepoint.com/:p:/r/personal/
 Pentru a determina eficienta acestora, am realizat un numar de 5 teste, cu numere generate aleator, avand urmatoarele caracteristici privind vectorii: [[Numar_elemente, Valoare maxima]], unde teste = teste = [[1000, 1000], [1000, 100000], [10000, 10000], [10000, 100000], [100000, 10000], [1000000, 100000], [10000000, 10000], [100000000, 30000]]. Pentru comparatie, am rulat si sort-ul nativ. In urma acestor teste, am inregistrat urmatoarele date (acestea au fost validate la final):
 
 TEST  1 [1000, 1000]
-Test 1 : BUBBLE SORT efectuat in 60 de milisecunde
+- Test 1 : BUBBLE SORT efectuat in 60 de milisecunde
 
-Test 1 : COUNT SORT efectuat in 1 de milisecunde
+- Test 1 : COUNT SORT efectuat in 1 de milisecunde
 
-Test 1 : MERGE SORT efectuat in 10 de milisecunde
+- Test 1 : MERGE SORT efectuat in 10 de milisecunde
 
-Test 1 : QUICK SORT efectuat in 2 de milisecunde
+- Test 1 : QUICK SORT efectuat in 2 de milisecunde
 
-Test 1 : RADIX SORT efectuat in 130 de milisecunde
+- Test 1 : RADIX SORT efectuat in 130 de milisecunde
 
-Test 1 : SORT NATIV efectuat in 0.1 de milisecunde
+- Test 1 : SORT NATIV efectuat in 0.1 de milisecunde
 
 TEST 2 [1000, 100000]
 
