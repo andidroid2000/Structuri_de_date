@@ -10,7 +10,7 @@ Pentru tema numarul 1 de la laboratorul de SD, am implementat in Python urmatori
 
 Link prezentare [PowerPoint](https://unibucro0-my.sharepoint.com/:p:/r/personal/andi_toader_s_unibuc_ro/Documents/SDA%20-%20Tema%201.pptx?d=wdda6482b3f064bd4a2ab6252d4ac38f7&csf=1&web=1&e=CuLbjA).
 
-Pentru a determina eficienta acestora, am realizat un numar de 5 teste, cu numere generate aleator, avand urmatoarele caracteristici privind vectorii: [[Numar_elemente, Valoare maxima]], unde teste = teste = [[1000, 1000], [1000, 100000], [10000, 10000], [10000, 100000], [100000, 10000], [1000000, 100000], [10000000, 10000], [100000000, 30000]]. Pentru comparatie, am rulat si sort-ul nativ. In urma acestor teste, am inregistrat urmatoarele date (acestea au fost validate la final):
+Pentru a determina eficienta acestora, am realizat un numar de 8 teste, cu numere generate aleator, avand urmatoarele caracteristici privind vectorii: [[Numar_elemente, Valoare maxima]], unde teste = teste = [[1000, 1000], [1000, 100000], [10000, 10000], [10000, 100000], [100000, 10000], [1000000, 100000], [10000000, 10000], [100000000, 30000]]. Pentru comparatie, am rulat si sort-ul nativ. Un ultim test a fost efectuat pe un input deja sortat. In urma acestor teste, am inregistrat urmatoarele date (acestea au fost validate la final):
 
 TEST  1 [1000, 1000]
 - Test 1 : BUBBLE SORT efectuat in 60 de milisecunde
